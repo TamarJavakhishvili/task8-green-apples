@@ -1,0 +1,198 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+BODY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 222, 126);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.align-left {
+    margin-inline-start: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+   
+}
+
+h2 {
+    color: rgb(60, 59, 59);
+    position: relative;
+}
+
+ul {
+    color: rgb(60, 59, 59);
+}
+
+.cod {
+    color: lightgray;
+    font-size: 12px;
+    position: absolute;
+    top: 80px;
+}
+
+.price {
+    color: red;
+    
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.select {
+    color: lightgray;
+    position: absolute;
+    top: 220px;
+}
+
+.benefits {
+    color: lightgray;
+    position: absolute;
+    top: 340px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    
+}
+
+.chooseapples:hover {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.image1-greenapple {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(231, 66, 66);
+    border-color: rgb(231, 66, 66);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+    /* transform: translate(2px); */
+    transform: scale(1.03);
+}
+
+.apples-card {
+    width: 340px;
+    height: 440px;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 10px;
+    left: -50px;
+    box-shadow: 0.5px 0.5px #ccc;
+}
+
+.apple-pop-front {
+    width: 250px;
+    height: 250px;
+    margin-top: 70px;
+    position: absolute;
+    left: -35px;
+    background-color: rgba(255, 255, 255, 0.0001);
+   position: relative;
+}
+
+.fa-share-nodes {
+    background-color: greenyellow;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.fa-heart {
+    background-color: greenyellow;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+
+.small-apples {
+    
+    padding: 10px;
+    align-items: center;
+    margin-left: 5px;
+   
+}
+
+.small-apple1 {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.small-apple2 {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.small-apple3 {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.small-apple4 {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.outside-space-apples {
+    display: block;
+    height: 100px;
+    width: 340px;
+    border: 1px solid #ccc;
+    box-shadow: 0.5px 0.5px #ccc;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
